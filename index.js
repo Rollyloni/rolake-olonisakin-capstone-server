@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-// const warehousesRoute = require("./routes/warehouses");
+const ordersRoute = require("./routes/orders");
 
 // const inventoriesRoute = require("./routes/inventories");
 
@@ -9,11 +9,11 @@ require("dotenv").config();
 const PORT = process.env.PORT || 5050;
 
 // Middleware
-// app.use(cors());
-// app.use(express.json());
+app.use(cors());
+app.use(express.json());
 
 // // routes here
-// app.use("/", warehousesRoute);
+app.use("/orders", ordersRoute);
 
 // app.use("/", inventoriesRoute);
 
