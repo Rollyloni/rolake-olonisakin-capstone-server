@@ -4,18 +4,18 @@ const fs = require("fs");
 const uniqid = require("uniqid");
 
 router.use((req, res, next) => {
-  console.log("orders route incoming request");
+  console.log("customers route incoming request");
   next();
 });
 
 //Functions
 const readOrdersFile = () => {
-  const ordersContent = fs.readFileSync("./data/orders.json");
-  return JSON.parse(ordersContent);
+  const customersContent = fs.readFileSync("./data/customers.json");
+  return JSON.parse(customersContent);
 };
-const writeOrdersFile = (data) => {
+const writeCustomersFile = (data) => {
   const stringifiedData = JSON.stringify(data);
-  fs.writeFileSync("./data/orders.json", stringifiedData);
+  fs.writeFileSync("./data/customers.json", stringifiedData);
 };
 
 //Routes

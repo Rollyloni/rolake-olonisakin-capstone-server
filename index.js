@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const ordersRoute = require("./routes/orders");
+const customersRoute = require("./routes/customers");
 
 // const inventoriesRoute = require("./routes/inventories");
 
@@ -14,6 +15,7 @@ app.use(express.json());
 
 // // routes here
 app.use("/orders", ordersRoute);
+app.use("/customers", customersRoute);
 
 // app.use("/", inventoriesRoute);
 

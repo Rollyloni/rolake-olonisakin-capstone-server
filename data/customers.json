@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/",
+    "Name": "John Doe",
+    "Location": "Vancouver",
+    "Address": "123 Lorem Ipsum",
+    "Phone": "453-646-3488",
+    "email": "johndoe@gmail.com"
+  },
+  {
+    "image": "/",
+    "Name": "Jane Spen",
+    "Location": "Surrey hwy",
+    "Address": "123 Lorem Ipsum",
+    "Phone": "329-647-3768",
+    "email": "johndoe@gmail.com"
+  },
+  {
+    "image": "/",
+    "Name": "Larry Bob",
+    "Location": "Burnaby IT",
+    "Address": "123 Lorem Ipsum",
+    "Phone": "653-854-4569",
+    "email": "johndoe@gmail.com"
+  }
+]

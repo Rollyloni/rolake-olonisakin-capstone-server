@@ -1,0 +1,42 @@
+[
+  {
+    "No": 1,
+    "image": "/",
+    "style": "Slim fit trousers",
+    "amount": "$1,000",
+    "status": "Active",
+    "delivery": "5 Aug 21",
+    "payment": "paid",
+    "client": "John Doe"
+  },
+  {
+    "No": 2,
+    "image": "/",
+    "style": "Sleeved Sweatshirt",
+    "amount": "$2,000",
+    "status": "Completed",
+    "delivery": "6 Sep 21",
+    "payment": "paid",
+    "client": "John Doe"
+  },
+  {
+    "No": 3,
+    "image": "/",
+    "style": "T-shirt with collar",
+    "amount": "$1,500",
+    "status": "Delivery",
+    "delivery": "7 Oct 21",
+    "payment": "paid",
+    "client": "John Doe"
+  },
+  {
+    "No": 4,
+    "image": "/",
+    "style": "Casual pants",
+    "amount": "$1,000",
+    "status": "Active",
+    "delivery": "8 Nov 21",
+    "payment": "paid",
+    "client": "Jane Spen"
+  }
+]
