@@ -4,7 +4,7 @@ const fs = require("fs");
 const uniqid = require("uniqid");
 
 router.use((req, res, next) => {
-  console.log("orders route incoming request");
+  console.log("incoming request");
   next();
 });
 
@@ -49,7 +49,7 @@ router.post("/", (req, res) => {
     phone: req.body.phone,
   };
   const ordersContent = readOrdersFile();
-  ordersContent.push(newOrder);
+  ordersContent.unshift(newOrder);
 
   writeOrdersFile(ordersContent);
 
@@ -57,7 +57,7 @@ router.post("/", (req, res) => {
   const foundCustomer = customer.find((client) => {
     return client.phone === req.body.phone;
   });
-  foundCustomer.orders.push(newOrder);
+  foundCustomer.orders.unshift(newOrder);
 
   writeCustomersFile(customer);
   res.status(201).json(newOrder);
