@@ -1,0 +1,92 @@
+[
+  {
+    "id": "44432d51-e8c2-4036-a1cf-8e0df6217f1d",
+    "image": "/",
+    "name": "John Doe",
+    "location": "Vancouver",
+    "address": "123 Lorem Ipsum",
+    "phone": 4536463488,
+    "email": "johndoe@gmail.com",
+    "clientSince": "May 12, 2020",
+    "orders": [
+      {
+        "no": 1,
+        "image": "/",
+        "style": "Slim fit trousers",
+        "amount": "$1,000",
+        "status": "Active",
+        "delivery": "5 Aug 21",
+        "payment": "paid",
+        "client": "John Doe",
+        "phone": 4536463488
+      },
+      {
+        "no": 2,
+        "image": "/",
+        "style": "Sleeved Sweatshirt",
+        "amount": "$2,000",
+        "status": "Completed",
+        "delivery": "6 Sep 21",
+        "payment": "paid",
+        "client": "John Doe",
+        "phone": 4536463488
+      },
+      {
+        "no": 3,
+        "image": "/",
+        "style": "T-shirt with collar",
+        "amount": "$1,500",
+        "status": "Delivery",
+        "delivery": "7 Oct 21",
+        "payment": "paid",
+        "client": "John Doe",
+        "phone": 4536463488
+      },
+      {
+        "id": "3y609kehl3jhfhoq",
+        "no": 6,
+        "style": "Sleeved Sweatshirt",
+        "amount": "$200",
+        "status": "Completed",
+        "delivery": "6 Sep 21",
+        "payment": "unpaid",
+        "client": "John Doe",
+        "phone": 4536463488
+      }
+    ]
+  },
+  {
+    "id": "40546813-a56b-44a8-9939-f4dba37574b1",
+    "image": "/",
+    "name": "Jane Spen",
+    "location": "Surrey hwy",
+    "address": "123 Lorem Ipsum",
+    "phone": 3296473768,
+    "email": "johndoe@gmail.com",
+    "clientSince": "June 12, 2020",
+    "orders": [
+      {
+        "no": 4,
+        "image": "/",
+        "style": "Casual pants",
+        "amount": "$1,000",
+        "status": "Active",
+        "delivery": "8 Nov 21",
+        "payment": "paid",
+        "client": "Jane Spen",
+        "phone": 3296473768
+      }
+    ]
+  },
+  {
+    "id": "f7d5a90e-6b48-4bef-925c-cceee1cd2d8e",
+    "image": "/",
+    "name": "Larry Bob",
+    "location": "Burnaby IT",
+    "address": "123 Lorem Ipsum",
+    "phone": 6538544569,
+    "email": "johndoe@gmail.com",
+    "clientSince": "July 12, 2020",
+    "orders": []
+  }
+]
