@@ -1,27 +1,5 @@
 [
   {
-    "id": "3y609n2sl3jmcdsn",
-    "name": "Rolake Oloni",
-    "address": "104 Lorraine Drive",
-    "location": "Vancouver",
-    "phone": "16475683705",
-    "email": "Rollyloni@gmail.com",
-    "clientSince": "12-May-2022",
-    "orders": [
-      {
-        "id": "3y609n2sl3jngxia",
-        "no": "7",
-        "style": "Short Skirt",
-        "amount": "$2,800",
-        "status": "Requested",
-        "delivery": "12-May-2030",
-        "payment": "Unpaid",
-        "client": "Rollyloni",
-        "phone": "16475683705"
-      }
-    ]
-  },
-  {
     "id": "44432d51-e8c2-4036-a1cf-8e0df6217f1d",
     "image": "/",
     "name": "John Doe",
